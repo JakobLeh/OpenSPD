@@ -1,0 +1,184 @@
+(footprint "C30645L-080"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "InGaAs Avalanche Photodiode, Excelitas Technologies")
+	(tags "apd")
+	(property "Reference" "REF**"
+		(at 0 -2.66 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "89699249-3748-45bf-a560-0d01e6a87de1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "C30645L-080"
+		(at 0 2.29 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "de8cfd19-49c8-413a-bb34-b9efe71fba18")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 -5.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b963e6a2-0b98-45b9-b0b9-9da377050f52")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 -5.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8da6935d-c672-4dd5-8578-780e9363ea6c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 -5.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "111504eb-3104-40b8-8c31-16651654029a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.5 1.6)
+		(end 0.5 1.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "98a034d5-a205-44c4-95b4-1373dbd7d8d1")
+	)
+	(fp_line
+		(start 0.4842 -1.6)
+		(end 0.1 -1.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f732ac06-68dd-49f6-a1ff-29f2a312896d")
+	)
+	(fp_circle
+		(center -2.2 -1.6)
+		(end -2.08 -1.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "5188d9b9-543f-4b4d-8d67-3e9c698d386d")
+	)
+	(fp_rect
+		(start -2.06 -1.76)
+		(end 2.06 1.76)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "a768d0cf-c6ef-42e0-834d-12cce1972d48")
+	)
+	(fp_rect
+		(start -1.5 -1.5)
+		(end 1.5 1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "1656bfe6-1a63-400e-989a-afd8fe8cb7f2")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7fe08183-4e72-4949-abd7-2b8321b04332")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.9779 -1.1)
+		(size 1.651 0.5588)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "a748d291-96ac-4243-a184-a326abe73483")
+	)
+	(pad "2" smd rect
+		(at -1.27 0)
+		(size 1.0668 0.5588)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "ca808a87-59aa-488f-9d93-24f2fd921cbb")
+	)
+	(pad "3" smd rect
+		(at -1.27 1.1)
+		(size 1.0668 0.5588)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "c88c7e71-6939-4bfb-b030-028bcdfb5ddc")
+	)
+	(pad "4" smd rect
+		(at 1.27 1.1)
+		(size 1.0668 0.5588)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "160c49b1-7037-4a08-8ecf-6cebaa9516af")
+	)
+	(pad "5" smd rect
+		(at 1.27 0)
+		(size 1.0668 0.5588)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "27e7c804-11d7-4344-8031-b76c9b7f2fba")
+	)
+	(pad "6" smd rect
+		(at 1.27 -1.1)
+		(size 1.0668 0.5588)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "0a31897b-acc3-46c3-bdfa-35509dd96da3")
+	)
+	(model "${KIPRJMOD}/lib/3d_models/LCC6_C30645L_EXT.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
