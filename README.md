@@ -1,6 +1,6 @@
 # OpenSPD
 
-**OpenSPD** (Open-Source Single Photon Detector) is a hardware project for detecting single photons in the near-infrared (NIR) range, specifically designed for applications such as photonic side-channel analysis using hot-carrier luminescence (HCL) from integrated circuits. The project is centered around a compact, low-cost, and high-sensitivity InGaAs avalanche photodiode (APD) detection system.
+**OpenSPD** (Open-Source Single Photon Detector) is a hardware project for detecting single photons in the near-infrared (NIR) range, specifically designed for applications such as photonic side-channel analysis using hot-carrier luminescence (HCL) from integrated circuits. The project is centered around a compact, low-cost, and high-sensitivity InGaAs avalanche photodiode (APD).
 
 This repository contains the full open-source hardware files including:
 
